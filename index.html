@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practical-6</title>
+  <style>
+    body{
+      background-color: grey;
+      padding: 20px;
+    }
+    h1{
+      text-align: center;
+    }
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      
+    }
+    #container
+    {
+      display: inline-flex;
+      
+    }
+    .box{
+      width: 300px;
+      height : 400px;
+      text-align: justify;
+      overflow : hidden;
+      border: 2px solid white;
+      margin-bottom: 10px;
+      padding: 10px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 10px;
+      font-family: arial;
+    }
+    
+    .box img{
+      width: 100%;
+      height: 120px;
+      border-radius: 10px;
+      background-color: white;
+    }
+    .box h2{
+      text-align: center;
+      margin: 10px;
+    }
+    .mybutton
+    {
+      margin-top: 10px;
+      text-decoration: none;
+      display: block;
+      color: white;
+      font-family: arial;
+      background-color: red;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    .mybutton:hover{
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1><span style="color: white; font-family: arial;">PRACTICAL-6: CREATE A CARD LAYOUT USING CSS LAYOUT PROPERTIES.</span></h1>
+  <div id="container">
+  <div class="box">
+    <div class="image-heading">
+      <img src="./img1.jpeg" alt="HTML"/>
+    </div>
+  <h2>Introduction to HTML</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veniam voluptas, adipisci nam libero, eveniet facere asperiores eum maiores voluptatibus repellat aspernatur similique quam quod dicta sunt quos et ut, corrupti! Lorem ipsum dolor sit amet consectetur adipisicings.
+
+  </p>
+  <div class="image" style="text-align: center;">  
+  <a href="./p6html.html" class="mybutton">Read more</a>
+  </div>
+</div>
+    <div class="box">
+      <div class="image-heading">
+        <img src="./p6css.png" alt="CSS"/>
+      </div>
+      <h2>Introduction to CSS</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veniam voluptas, adipisci nam libero, eveniet facere asperiores eum maiores voluptatibus repellat aspernatur similique quam quod dicta sunt quos et ut, corrupti! Lorem, ipsum dolor sit amet consectetur adipisicing?</p>
+        <div class="image" style="text-align: center;">
+        <a href="./p6css.html" class= "mybutton">Read more</a></div>
+    </div>
+        
+        
+        
+        <div class="box">
+          <div class="image-heading">
+            <img src="./jquery.jpg" alt="jQuery"/>
+          </div>
+          <h2>Introduction to jQuery</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veniam voluptas, adipisci nam libero, eveniet facere asperiores eum maiores voluptatibus repellat aspernatur similique quam quod dicta sunt quos et ut, corrupti! Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="image" style="text-align: center;">
+            <a href="./p6jquery.html" class= "mybutton">Read more</a></div>
+        </div>
+
+            <div class="box">
+              <div class=image-heading">
+                <img src="./p6bs.png" alt="Bootstrap"/>
+              </div>
+              <h2>Introduction to BS</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veniam voluptas, adipisci nam libero, eveniet facere asperiores eum maiores voluptatibus repellat aspernatur similique quam quod dicta sunt quos et ut, corrupti! Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+               <div class="image" style="text-align: center;">
+              <a href="./p6bs.html" class="mybutton">Read more</a></div> 
+            </div>
+  </div>
+</body>
+</html>
